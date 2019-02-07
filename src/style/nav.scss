@@ -1,0 +1,94 @@
+.navWrapper {
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(194, 187, 177) ;
+    color: white;
+    padding-left: 20px;
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       }
+       
+       .name {
+        padding-top: 20px;
+        font-size: 1.7em;
+        font-weight: 700;
+        width: 30vw;
+        text-decoration: none;
+        color: rgb(100, 115, 129) ;
+        margin-top: 20px;
+        z-index: 3;
+       }
+
+       .under {
+           margin-top: -74px;
+           font-size: 85px;
+           color: rgb(241, 237, 232);
+           z-index: 1;
+           font-weight: 700;
+           font-family: 'Times New Roman', Times, serif;
+           padding-bottom: 20px;
+       }
+       .navHeader {
+       display: flex;
+       justify-content: space-around;
+       padding-top: 30px;
+       padding-right: 30px;
+       padding-bottom: 20px;
+       width: 53%;
+       margin-left: 35%;
+       margin-top: 20px;
+       
+       a {
+           color: rgb(241, 237, 232);
+           font-family: 'Raleway', sans-serif;
+           font-weight: 700;
+           text-decoration: none;
+           font-size: 1em;
+           padding: 10px;
+           border: 1px double transparent;
+           &:hover {
+               color: rgb(100, 115, 129);
+               border: 1px double rgb(241, 237, 232);
+               font-weight: 700;
+               transition: .5s;
+           }
+       }   
+       
+       .nav-link-active {
+           border: 1px double rgb(241, 237, 232);
+           color: rgb(100, 115, 129);
+           }
+       }
+   
+   }
+
+  .separate{
+      border-bottom: 3px solid rgb(100, 115, 129);
+      padding-top: 30px;
+  }
+
+  .phone {
+    margin-left: 40%;
+    margin-top: -13px;
+    background-color: rgb(194, 187, 177);
+    padding-left: 20px;
+    padding-right: 2px;
+    font-size: 1.1em;
+    width: 14.5%;
+    color: rgb(241, 237, 232);
+    font-weight: 700;
+  }
+
+  .phoneNum {
+    background-color: rgb(194, 187, 177);
+  }
+
+
+
+

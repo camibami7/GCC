@@ -1,0 +1,14 @@
+@import "nav.scss";
+@import "carousel.scss";
+@import "about.scss";
+@import "contact.scss";
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'montserrat';
+}

@@ -1,0 +1,53 @@
+.aboutWrapper {
+    text-align: center;
+    background-color: rgb(241, 237, 232);
+    width: 100%;
+
+    .aboutHeader {
+        color: rgb(100, 115, 129);
+        border-bottom: 3px solid rgb(194, 187, 177);
+        width: 50%;
+        margin-left: 26.5%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .aboutText{
+        width: 33%;
+        padding-left: 61%;
+        margin-top: -850px;
+        padding-bottom: 700px;
+        color: rgb(100, 115, 129);
+        font-size: 1.3em;
+
+    }
+
+    .aboutImgs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 25%;
+        padding-top: 80px;
+
+        .darinDiane {
+            height: 500px;
+            width: auto;
+            border: 1px solid rgb(100, 115, 129);
+            border-radius: 3px;
+            margin-right: 550px;
+        }
+
+        .fam {
+            width: 750px;
+            height: auto;
+            z-index: 3;
+            border: 1px solid rgb(100, 115, 129);
+            border-radius: 3px;
+            margin-left: 550px;
+            margin-top: -150px;
+        }
+    }
+
+    
+}
