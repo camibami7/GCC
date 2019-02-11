@@ -17,15 +17,15 @@ class Contact extends Component {
                     </div>
                     <div className='rightSide'>
                         <div className="phoneNumber">
-                        <img src="assets/images/phone-volume-solid.svg" alt="notin"/>
+                        <img src="assets/images/phone-volume-solid.svg" className="phonePic" alt="notin"/>
                             <p>(801) 472-7672</p>
                         </div>
                         <div className="phoneNumber">
-                            <i class="fas fa-map-marker-alt"/>
+                            <img src="assets/images/map-marker-alt-solid.svg" className="phonePic" alt=""/>
                             <p>7328 N. Point Lookout Rd.<br/> Eagle Mountain, Ut. 84005</p>
                         </div>
                         <div className="phoneNumber">
-                            <i class="fas fa-envelope"/>
+                            <img src="assets/images/envelope-solid.svg" className="phonePic" alt=""/>
                             <p>Garretthomes@gmail.com</p>
                         </div>
                     </div>
